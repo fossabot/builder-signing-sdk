@@ -1,4 +1,6 @@
 # builder-signing-sdk
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fbuilder-signing-sdk.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fbuilder-signing-sdk?ref=badge_shield)
+
 
 A TypeScript SDK for creating authenticated builder headers
 
@@ -49,3 +51,6 @@ const headers = await builderConfig.generateBuilderHeaders(
   '{"marketId": "0x123"}' // Request body
 );
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fbuilder-signing-sdk.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fbuilder-signing-sdk?ref=badge_large)
